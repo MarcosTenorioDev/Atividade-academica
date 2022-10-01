@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    height: 100vh;
+    display: flex;
+    max-width: 1250px;
+    margin-inline: auto;
+    background-color: #353535;
+    color: #ffffff;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+    
+}
+p{
+    font-weight: 200;
+    font-size: 25px;
+}
+.content{
+    text-align: start;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    max-height: 600px;
+    justify-content: space-around; 
+    gap: 80px;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: end;
+    
+}
+.btnBox{
+    
+    display: flex;
+    gap: 55px;
+    padding: 0 0 0 90px;
+    justify-content: flex-end;
+    
+    
+}
+
+.btnBox a{
+   
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.btnBox .btn1{
+    background-color: #036635;
+    color: #ffffff;
+    
+}
+.btnBox .btn2{
+    border: 2px solid #793d0a;
+    color: #ffffff;
+}
+.imageContent{
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+}
+.product{
+    padding: 45px;
+    border: 2px solid #036635;
+    border-radius: 20px;
+}
+
+.imageContent .bg{
+    border: 5px solid gray;
+    background-image: url(images/graos.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%;
+    filter: brightness(30%);
+    border-radius: 20px
+   
+}
